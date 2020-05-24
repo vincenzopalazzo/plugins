@@ -84,3 +84,6 @@ which python3
 rm /tmp/.coverage.* .coverage.tmp .coverage || true
 
 pytest -vvv --timeout=550 --timeout_method=thread -p no:logging -n 2
+
+
+env
